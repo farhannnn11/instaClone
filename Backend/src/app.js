@@ -18,7 +18,7 @@ app.use(express.static("./public"))
 app.use("/api/auth",authRouter)
 app.use("/api/post",postRouter)
 app.use("/api/",followRouter)
-
-
-
+app.use('*name',(req,res)=>{
+    res.sendFile(path.join(__dirname,"..","/public/index.html"))
+})
 module.exports =app
