@@ -1,7 +1,7 @@
 import axios from "axios";
 // import { useState } from "react";
 const api = axios.create({
-  baseURL: "http://localhost:3000",
+  baseURL: "https://instaclone-buhh.onrender.com",
   withCredentials: true,
 });
 

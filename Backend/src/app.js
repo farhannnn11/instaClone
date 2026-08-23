@@ -11,7 +11,7 @@ app.use(express.json())
 app.use(cookie())
 app.use(cors({
     credentials:true,
-    origin:"https://instaclone-buhh.onrender.com/"
+    origin:"https://instaclone-buhh.onrender.com"
 }))
 
 app.use(express.static("./public"))
