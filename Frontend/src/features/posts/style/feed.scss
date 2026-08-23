@@ -1,0 +1,130 @@
+.feed-page{
+
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    flex-direction: column; 
+// 
+    .feed{
+        display: flex;
+        flex-direction: row;
+        // justify-content: space-around;
+        gap: 6rem;
+        max-width: 300px;
+        width: 100%;
+
+        .posts{
+            width: 100%;
+            // display: flex;
+            
+            
+        }
+
+        .post{
+            width: 100%;
+                background-color: #fff;
+                color: black;
+                // padding: 0.1rem;
+                margin: 1rem;
+            .userDets{
+                // background-color: #fff;
+                color: black;
+                display: flex;
+                gap: 0.4rem;
+                padding: 0.3rem;
+                align-items: center;
+                // border-radius: 1rem;
+
+                .pfp-wrap{
+                    // background-color: red;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    border: 3px solid red;
+                    // padding: 0.1rem;
+                    border-radius: 50%;
+                    // background: conic-gradient(content: '\edbc';);
+
+                img{
+                    width: 2.4rem;
+                    aspect-ratio: 1/1;
+                    border-radius: 50%;
+                }
+                }
+
+            }
+
+            img{
+                width: 100%;
+                object-fit: cover;
+                
+            }
+            .bottom{
+                .icons-button{
+                    display: flex;
+                    justify-content: space-between;
+                    padding: 0.4rem;
+                    .left{
+                    display: flex;
+                    gap: 1rem;
+                    // padding: 0.2rem;
+                    // font-size: 1.2rem;
+                    
+                    button{
+                        // background-color: green;
+                        background: none;
+                        outline: none;
+                        font-size: 1.2rem;
+                        padding: 0.3rem;
+                          border: none;  
+
+                        // font-weight: bolder;
+                        svg{
+                            width: 1rem;
+                        }
+                    }
+                    .like{
+                        color: red;
+                    }
+                    .black{
+                        color: black;
+                    }
+                    }
+                    .right{
+                        button{
+                        font-size: 1.2rem;
+                        padding: 0.3rem;
+                        // font-weight: bolder;
+                          border: none;  
+                            background: none;
+                        }
+                    }
+
+                }
+                .caption{
+                    // background-color: #fff;
+                    padding: 0.2rem;
+                }
+            }
+
+        }
+
+        .followList{
+            width: 100%;
+            .follow-card{
+                display: flex;
+                // justify-content: space-between;
+                // width: 100%;
+                gap: 2rem;
+                background-color: #fff;
+                color: black;
+                padding: 1rem;
+                button{
+                    padding: 0.5rem;
+                }
+            }
+            
+        }
+    }
+}
+

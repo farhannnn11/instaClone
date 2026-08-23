@@ -1,0 +1,35 @@
+main{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-container{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    width: 300px;
+    form{
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+
+        input{
+            padding: 1rem;
+            outline: none;
+            border-radius: 0.9rem;
+            border: none;
+        }
+        input::placeholder{
+            font-weight: bolder;
+            color: gray;
+        }
+
+    }
+
+    .nav{
+        color: red;
+        text-decoration: none;
+    }
+}

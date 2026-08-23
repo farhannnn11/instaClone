@@ -1,0 +1,14 @@
+.button {
+  padding: 0.6rem;
+  border-radius: 0.5rem;
+  border: none;
+  font-weight: bold;
+  &.primaryButton{
+      background-color: darkorange;
+
+  }
+
+  &:active{
+    transform: scale(0.98);
+  }
+}
