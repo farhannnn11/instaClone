@@ -40,7 +40,7 @@ const Login = () => {
             <button className='button primaryButton'>Submit</button>
         </form>
 
-        <p>Don't have account? <Link className='nav' to={"/register"}>Register</Link></p>
+        <p>Don't have account? <Link className='nav' to={"/"}>Register</Link></p>
     </div>
 
     </main>
